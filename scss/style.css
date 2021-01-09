@@ -236,7 +236,7 @@ main {
   padding-top: 20px;
   padding-bottom: 30px;
   line-height: 160%;
-  font-size: 16px;
+  font-size: var(--fontSize);
   color: var(--fontMenuColor);
 }
 
@@ -251,7 +251,7 @@ main {
   color: var(--fontMenuColor);
   line-height: 160%;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: var(--fontSize);
 }
 
 .features .card {
@@ -295,7 +295,7 @@ main {
   padding-top: 20px;
   width: 80%;
   line-height: 160%;
-  font-size: 16px;
+  font-size: var(--fontSize);
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -304,7 +304,7 @@ main {
 
 .features .card__link {
   color: var(--fontColor);
-  font-size: 16px;
+  font-size: var(--fontSize);
   font-weight: bold;
   line-height: 160%;
   letter-spacing: 0.07em;
@@ -474,11 +474,12 @@ main {
 
 .footer {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .footer__address {
   color: var(--fontColor);
-  font-size: 16px;
+  font-size: var(--fontSize);
   letter-spacing: 0.03em;
   font-weight: bold;
   line-height: 180%;
@@ -487,7 +488,7 @@ main {
 
 .footer__contact {
   color: var(--fontColor);
-  font-size: 16px;
+  font-size: var(--fontSize);
   letter-spacing: 0.03em;
   line-height: 180%;
   margin-top: 10px;
